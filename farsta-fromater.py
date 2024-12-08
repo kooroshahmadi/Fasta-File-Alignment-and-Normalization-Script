@@ -1,8 +1,8 @@
 from Bio import SeqIO  # First install biopython using: pip install biopython
 
 # Define the file path for your FASTA file
-input_file = "tree-all-new.fasta"
-output_file = "padded_tree-all-new.fasta"
+input_file = "replace-with-your-FASTA-file"
+output_file = "repalce-with-the-output-file-name.fasta"
 
 # Read all sequences
 sequences = list(SeqIO.parse(input_file, "fasta"))
